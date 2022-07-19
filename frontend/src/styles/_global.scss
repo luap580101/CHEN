@@ -1,0 +1,89 @@
+@import '../styles/font';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+#root {
+  font-family: 'YuPearl', 'Baloo 2';
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  cursor: default;
+}
+
+@mixin heading {
+  font-style: normal;
+  font-family: 'YuPearl', 'Baloo 2';
+  color: $fontColor;
+}
+
+@mixin text {
+  font-style: normal;
+  font-family: 'YuPearl', 'Baloo 2';
+
+  line-height: 100%;
+}
+
+h1 {
+  @include heading;
+  font-weight: 900;
+  font-size: 3.75rem;
+}
+
+h2 {
+  @include heading;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h3 {
+  @include heading;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+h4 {
+  @include heading;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h5 {
+  @include heading;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+h6 {
+  @include heading;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+p {
+  @include text;
+
+  font-size: 1rem;
+}
+

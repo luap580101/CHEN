@@ -1,0 +1,50 @@
+// 這個檔案只連結其他scss檔
+@import './styles/_variables.scss';
+
+@import './styles/_global.scss';
+
+//首頁
+@import './styles/_home.scss';
+@import './styles/_cardhome.scss';
+@import './styles/_card.scss';
+
+//會員
+@import './styles/_login.scss';
+@import './styles/_profile.scss';
+@import './styles/_memberCenter.scss';
+@import './styles/_updateProfile.scss';
+
+// 靜態頁面
+@import './styles/_navbar.scss';
+@import './styles/header';
+@import './styles/_footer.scss';
+
+// 開團清單
+@import './styles/_groups.scss';
+
+//開團細節頁
+@import './styles/_groupdetail.scss';
+
+//店家清單
+@import './styles/_shoplist.scss';
+//店家細節頁
+@import './styles/_shopdetail.scss';
+
+// 購物車
+@import './styles/list';
+@import './styles/side';
+@import './styles/credit';
+// @import './styles/card';
+//店家後台
+@import './styles/shopback';
+@import './styles/groupList';
+// 登入登出
+@import './styles/_shoplogin.scss';
+
+//店家註冊
+@import './styles/_shopregister.scss';
+// 設定第三方登出按鈕用
+
+//這個scss請幫我保留在最下面
+
+@import './styles/_memberLogin.scss';

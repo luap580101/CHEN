@@ -1,0 +1,31 @@
+.video-box {
+  position: relative;
+  height: 100vh;
+  // min-height: 25rem;
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: white;
+  .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 100;
+  }
+  .container {
+    position: absolute;
+    // left: 50;
+    z-index: 102;
+  }
+}
+.over-lay {
+  z-index: 101;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.5;
+  overflow-x: hidden;
+}

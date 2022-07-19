@@ -1,0 +1,38 @@
+.avatar_pic_div_bg {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background: rgb(216, 214, 214);
+    .avatar_pic_div {
+      display: block;
+    }
+  }
+  .avatar_pic_div {
+    color: rgb(43, 41, 41);
+    font-size: 2rem;
+    opacity: 1;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+  }
+}
+.change_pic {
+  img {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+}
+
+.pic-dialog {
+  width: 25% !important;
+  top: 30%;
+  left:-8%;
+}
+.pic_modal-backdrop {
+  background-color: transparent;
+}

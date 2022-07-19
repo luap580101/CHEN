@@ -1,0 +1,53 @@
+.banner {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+span {
+    color: #FFB901;
+    font-weight: 900;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.25rem;
+
+    span {
+        color: #EF8062;
+        font-weight: 900;
+    }
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.photoinfo {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #A7A5A5;
+}
+
+.line {
+    border: #FFB901 1px solid;
+}
+
+.eye-input {
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .eye {
+        cursor: pointer;
+        transition: color 200ms;
+    }
+}
+
+.password-input {
+    position: absolute;
+}

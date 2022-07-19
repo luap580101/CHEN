@@ -1,0 +1,26 @@
+.little-card {
+  width: 250px;
+  cursor: pointer;
+
+  .badge {
+    width: 50px;
+    height: 25px;
+  }
+  .progress-text {
+    font-size: 13px;
+  }
+}
+
+.main-hover {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+}
+.main-hover:hover {
+  transform: translateY(-5px);
+  border: none;
+  border-bottom: 5px solid #ffb901;
+}
+.cate {
+  width: 50px;
+  height: 25px;
+}

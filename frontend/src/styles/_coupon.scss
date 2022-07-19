@@ -1,0 +1,16 @@
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #ffb901;
+  font-weight: 500 !important;
+}
+.nav-link {
+  color: #4f4f4f;
+}
+.alert-coupon {
+  border: 1px dashed #ffb901;
+  background: #ffeecf;
+  height: 10rem;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

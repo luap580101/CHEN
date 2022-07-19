@@ -1,0 +1,20 @@
+.list {
+  td,
+  th {
+    text-align: center;
+
+    .logo {
+      width: 80px;
+    }
+    .delete {
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+  th {
+    padding-bottom: 17px;
+  }
+  .tr-hover:hover {
+    background-color: $secondary;
+  }
+}

@@ -1,0 +1,48 @@
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    padding-left: 0px
+}
+
+.content {
+    z-index: 1;
+    margin: 250px;
+
+    h2,
+    h5 {
+        color: white;
+    }
+
+    // .video-viewpoint{
+    //     width: 800px;
+    //     height: 800px;
+    // }
+
+    .btn {
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: white;
+        width: 230px;
+        height: 50px;
+    }
+
+    // video{
+    //     position: absolute;
+    //     z-index: -99;
+    // }
+
+}
+
+//ShopLoginForm 
+.form-size {
+    max-width: 500px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 900;
+}

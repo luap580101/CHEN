@@ -1,0 +1,87 @@
+.groupdetail {
+    .img-box {
+        width: 760px;
+        height: 400px;
+        background-color: bisque;
+        overflow: hidden;
+    }
+
+    .Gtitle {
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
+
+        }
+    }
+
+    .borderTitle {
+        border-left: 8px solid #1E2188;
+        font-weight: 900;
+
+    }
+
+    button {
+        width: 100%;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #FFB901;
+        border: none;
+    }
+
+    .point {
+        cursor: pointer;
+    }
+
+    .point:hover {
+        color: #1E2188
+    }
+
+
+    .nav-pills {
+        border-radius: 0px;
+        color: black;
+        background-color: #FFEECF;
+    }
+
+    .nav-pills .nav-item:not(:nth-last-child(1)) .nav-link {
+        border-right: 1px solid #FFB901;
+    }
+
+    a:hover {
+        color: #FFB901;
+    }
+
+}
+
+.page {
+
+    input,
+    button,
+    select,
+    optgroup,
+    textarea {
+        color: black;
+        font-weight: 500;
+    }
+
+    button:hover {
+        background-color: #FFEECF;
+        color: #EF8062;
+
+    }
+}
+
+.content-info {
+    border-left: 8px solid #FFB901;
+    font-weight: 900;
+}
+
+.dish-set {
+    border: 5px solid #FFEECF
+}
+
+.discount-dish {
+    border: 2px solid #FFB901
+}

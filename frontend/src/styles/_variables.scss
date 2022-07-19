@@ -1,0 +1,53 @@
+//客製化sweet-alert
+.swal2-popup {
+  font-size: 0.8rem !important;
+}
+
+// 設置所有的輸入數字欄位不出現箭頭符號
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+//Color List:
+$primary: #FFB901;
+$secondary: #FFEECF;
+$info: #1E2188;
+$danger: #EF8062;
+
+$fontColor: #4f4f4f;
+
+// 設定margin.padding寬高:
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.2,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7,
+  8: $spacer * 9,
+  9: $spacer * 10,
+  ) !default;
+
+//字體間距
+
+
+//陰影調整
+$black: #000;
+$box-shadow: 0 .5rem 0.75rem rgba(116, 85, 9, 0.363
+);
+$box-shadow-sm: 0 .2rem 0.5rem rgba($black, .30);
+
+
+/* bootstrap */
+@import "~bootstrap/scss/bootstrap.scss";
